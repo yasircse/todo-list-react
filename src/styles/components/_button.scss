@@ -1,0 +1,30 @@
+.lg-button {
+  background: $light-teal;
+  border: none;
+  border-bottom: 0.6rem solid darken($light-teal, 30%);
+  color: $dark-teal;
+  font-weight: bold;
+  font-size: $l-size;
+  width: 100%;
+  margin-bottom: $xl-size;
+  padding: $m-size 0;
+}
+
+.lg-button:disabled {
+  opacity: 0.5;
+}
+
+.sm-button {
+  background: $light-teal;
+  border: none;
+  border-bottom: 0.3rem solid darken($light-teal, 30%);
+  color: $dark-teal;
+  font-weight: 500;
+  padding: $s-size;
+}
+
+.sm-button--link {
+  background: none;
+  border: none;
+  padding: 0;
+}
